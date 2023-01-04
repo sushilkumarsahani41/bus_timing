@@ -1,4 +1,4 @@
-import 'package:bus_timing/home.dart';
+import 'package:bus_timing/Pages/home.dart';
 import 'package:flutter/material.dart';
 
 void main() {
