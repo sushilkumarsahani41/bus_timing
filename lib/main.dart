@@ -13,7 +13,6 @@ class MyHttpOverrides extends HttpOverrides {
 
 void main() {
   HttpOverrides.global = new MyHttpOverrides();
-
   runApp(const MyApp());
 }
 
