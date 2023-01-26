@@ -16,7 +16,7 @@ class toHome extends StatefulWidget {
 class _toHomeState extends State<toHome> {
   Future<List<DataModel>> _HomegetData() async {
     var data = await http.get(
-        Uri.parse("http://api.sahanisushilkumar.in/api/bus_timing/toHome"));
+        Uri.parse("https://api.sahanisushilkumar.in/api/bus_timing/toHome"));
     var jsonData = json.decode(data.body);
     List<DataModel> HomedataModels = [];
     for (var u in jsonData['records']) {
